@@ -1,0 +1,614 @@
+[
+    {
+        "name": "Frostifur",
+        "abilities": [
+            {
+                "ability": {
+                    "name": "snowy-guard",
+                    "description": "When hit by an Ice-type move, this Pokémon's Defense and Sp. Def are increased."
+                },
+                "is_hidden": false,
+                "slot": 1
+            },
+            {
+                "ability": {
+                    "name": "ice-body",
+                    "description": "The Pokémon gradually regains HP in a hailstorm."
+                },
+                "is_hidden": true,
+                "slot": 3
+            }
+        ],
+        "base_experience": 178,
+        "forms": [
+            {
+                "name": "Frostifur",
+                "description": "This fluffy Pokémon has a coat of snow-like fur that helps it blend into its wintry surroundings. The fur is said to have insulating properties, allowing Frostifur to survive in extreme cold."
+            }
+        ],
+        "evolutions": [
+            {
+                "name": "Frostifur",
+                "description": "This fluffy Pokémon has a coat of snow-like fur that helps it blend into its wintry surroundings. The fur is said to have insulating properties, allowing Frostifur to survive in extreme cold."
+            },
+            {
+                "name": "Blizzuff",
+                "description": "After evolving, the fur on this Pokémon becomes dense and icy. It can create powerful blizzards by flapping its large wings."
+            }
+        ],
+        "height": 8,
+        "held_items": [
+            {
+                "item": {
+                    "name": "icy-rock",
+                    "description": "A Pokémon held item that extends the duration of the move Hail when used by the holder."
+                },
+                "version_details": [
+                    {
+                        "rarity": 5,
+                        "version": {
+                            "name": "emerald",
+                            "description": "The Pokémon Emerald Version game."
+                        }
+                    }
+                ]
+            }
+        ],
+        "id": 901,
+        "is_default": true,
+        "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/901/encounters",
+        "moves": [
+            {
+                "move": {
+                    "name": "ice-shard",
+                    "description": "The user flash freezes chunks of ice and hurls them at the target. This move always goes first."
+                },
+                "version_group_details": [
+                    {
+                        "level_learned_at": 15,
+                        "move_learn_method": {
+                            "name": "level-up",
+                            "description": "A move is learned by leveling up."
+                        },
+                        "version_group": {
+                            "name": "sword-shield",
+                            "description": "The Pokémon Sword and Pokémon Shield games."
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Blizzuff",
+        "abilities": [
+            {
+                "ability": {
+                    "name": "snowy-guard",
+                    "description": "When hit by an Ice-type move, this Pokémon's Defense and Sp. Def are increased."
+                },
+                "is_hidden": false,
+                "slot": 1
+            },
+            {
+                "ability": {
+                    "name": "ice-body",
+                    "description": "The Pokémon gradually regains HP in a hailstorm."
+                },
+                "is_hidden": true,
+                "slot": 3
+            }
+        ],
+        "base_experience": 178,
+        "forms": [
+            {
+                "name": "Blizzuff",
+                "description": "After evolving, the fur on this Pokémon becomes dense and icy. It can create powerful blizzards by flapping its large wings."
+            }
+        ],
+        "evolutions": [
+            {
+                "name": "Frostifur",
+                "description": "This fluffy Pokémon has a coat of snow-like fur that helps it blend into its wintry surroundings. The fur is said to have insulating properties, allowing Frostifur to survive in extreme cold."
+            },
+            {
+                "name": "Blizzuff",
+                "description": "After evolving, the fur on this Pokémon becomes dense and icy. It can create powerful blizzards by flapping its large wings."
+            }
+        ],
+        "height": 8,
+        "held_items": [
+            {
+                "item": {
+                    "name": "icy-rock",
+                    "description": "A Pokémon held item that extends the duration of the move Hail when used by the holder."
+                },
+                "version_details": [
+                    {
+                        "rarity": 5,
+                        "version": {
+                            "name": "emerald",
+                            "description": "The Pokémon Emerald Version game."
+                        }
+                    }
+                ]
+            }
+        ],
+        "id": 902,
+        "is_default": true,
+        "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/902/encounters",
+        "moves": [
+            {
+                "move": {
+                    "name": "ice-shard",
+                    "description": "The user flash freezes chunks of ice and hurls them at the target. This move always goes first."
+                },
+                "version_group_details": [
+                    {
+                        "level_learned_at": 15,
+                        "move_learn_method": {
+                            "name": "level-up",
+                            "description": "A move is learned by leveling up."
+                        },
+                        "version_group": {
+                            "name": "sword-shield",
+                            "description": "The Pokémon Sword and Pokémon Shield games."
+                        }
+                    },
+                    {
+                        "level_learned_at": 15,
+                        "move_learn_method": {
+                            "name": "level-up",
+                            "description": "A move is learned by leveling up."
+                        },
+                        "version_group": {
+                            "name": "ultra-sun-ultra-moon",
+                            "description": "The Pokémon Ultra Sun and Pokémon Ultra Moon games."
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Glimmervine",
+        "abilities": [
+            {
+                "ability": {
+                    "name": "photosynthesis",
+                    "description": "This Pokémon gains a small amount of HP at the end of each turn if the weather is sunny."
+                },
+                "is_hidden": false,
+                "slot": 1
+            },
+            {
+                "ability": {
+                    "name": "chlorophyll",
+                    "description": "If Sunny Day is active, this Pokémon's Speed is doubled."
+                },
+                "is_hidden": true
+            }
+        ],
+        "base_experience": 205,
+        "forms": [
+            {
+                "name": "Glimmervine",
+                "description": "This vine-like Pokémon emits a soft glow at night, illuminating its surroundings. Its glow is believed to attract prey, which it then ensnares with its tendrils."
+            }
+        ],
+        "evolutions": [
+            {
+                "name": "Glimmervine",
+                "description": "This vine-like Pokémon emits a soft glow at night, illuminating its surroundings. Its glow is believed to attract prey, which it then ensnares with its tendrils."
+            },
+            {
+                "name": "Luminaria",
+                "description": "Upon evolving, this Pokémon develops bioluminescent flowers that emit a captivating aroma, luring in prey and mesmerizing onlookers."
+            }
+        ],
+        "height": 14,
+        "held_items": [
+            {
+                "item": {
+                    "name": "miracle-seed",
+                    "description": "A Pokémon held item that boosts the power of Grass-type moves."
+                },
+                "version_details": [
+                    {
+                        "rarity": 5,
+                        "version": {
+                            "name": "gold",
+                            "description": "The Pokémon Gold Version game."
+                        }
+                    }
+                ]
+            }
+        ],
+        "id": 902,
+        "is_default": true,
+        "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/902/encounters",
+        "moves": [
+            {
+                "move": {
+                    "name": "energy-ball",
+                    "description": "The user draws power from nature and fires it at the target. This may also lower the target's Sp. Def stat."
+                },
+                "version_group_details": [
+                    {
+                        "level_learned_at": 24,
+                        "move_learn_method": {
+                            "name": "level-up",
+                            "description": "A move is learned by leveling up."
+                        },
+                        "version_group": {
+                            "name": "sword-shield",
+                            "description": "The Pokémon Sword and Pokémon Shield games."
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Luminaria",
+        "abilities": [
+            {
+                "ability": {
+                    "name": "photosynthesis",
+                    "description": "This Pokémon gains a small amount of HP at the end of each turn if the weather is sunny."
+                },
+                "is_hidden": false,
+                "slot": 1
+            },
+            {
+                "ability": {
+                    "name": "chlorophyll",
+                    "description": "If Sunny Day is active, this Pokémon's Speed is doubled."
+                },
+                "is_hidden": true
+            }
+        ],
+        "base_experience": 205,
+        "forms": [
+            {
+                "name": "Luminaria",
+                "description": "Upon evolving, this Pokémon develops bioluminescent flowers that emit a captivating aroma, luring in prey and mesmerizing onlookers."
+            }
+        ],
+        "evolutions": [
+            {
+                "name": "Glimmervine",
+                "description": "This vine-like Pokémon emits a soft glow at night, illuminating its surroundings. Its glow is believed to attract prey, which it then ensnares with its tendrils."
+            },
+            {
+                "name": "Luminaria",
+                "description": "Upon evolving, this Pokémon develops bioluminescent flowers that emit a captivating aroma, luring in prey and mesmerizing onlookers."
+            }
+        ],
+        "height": 14,
+        "held_items": [
+            {
+                "item": {
+                    "name": "miracle-seed",
+                    "description": "A Pokémon held item that boosts the power of Grass-type moves."
+                },
+                "version_details": [
+                    {
+                        "rarity": 5,
+                        "version": {
+                            "name": "gold",
+                            "description": "The Pokémon Gold Version game."
+                        }
+                    }
+                ]
+            }
+        ],
+        "id": 902,
+        "is_default": true,
+        "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/902/encounters",
+        "moves": [
+            {
+                "move": {
+                    "name": "energy-ball",
+                    "description": "The user draws power from nature and fires it at the target. This may also lower the target's Sp. Def stat."
+                },
+                "version_group_details": [
+                    {
+                        "level_learned_at": 24,
+                        "move_learn_method": {
+                            "name": "level-up",
+                            "description": "A move is learned by leveling up."
+                        },
+                        "version_group": {
+                            "name": "sword-shield",
+                            "description": "The Pokémon Sword and Pokémon Shield games."
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Reshiram",
+        "abilities": [
+            {
+                "ability": {
+                    "name": "turboblaze",
+                    "description": "This Pokémon's moves and their effects ignore the Abilities of other Pokémon."
+                },
+                "is_hidden": false,
+                "slot": 1
+            }
+        ],
+        "base_experience": 306,
+        "forms": [
+            {
+                "name": "Reshiram",
+                "description": "This Pokémon is said to have been born in the heat of a volcanic eruption. It is said to fly across the sky, burning everything to ash."
+            }
+        ],
+        "height": 77,
+        "held_items": [
+            {
+                "item": {
+                    "name": "charcoal",
+                    "description": "A Pokémon held item that boosts the power of Fire-type moves."
+                },
+                "version_details": [
+                    {
+                        "rarity": 5,
+                        "version": {
+                            "name": "gold",
+                            "description": "The Pokémon Gold Version game."
+                        }
+                    }
+                ]
+            }
+        ],
+        "id": 643,
+        "is_default": true,
+        "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/643/encounters",
+        "moves": [
+            {
+                "move": {
+                    "name": "dragon-pulse",
+                    "description": "The user attacks with a shock wave generated by its gaping mouth. This may also make the target flinch."
+                },
+                "version_group_details": [
+                    {
+                        "level_learned_at": 0,
+                        "move_learn_method": {
+                            "name": "level-up",
+                            "description": "A move is learned by leveling up."
+                        },
+                        "version_group": {
+                            "name": "sword-shield",
+                            "description": "The Pokémon Sword and Pokémon Shield games."
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Zekrom",
+        "abilities": [
+            {
+                "ability": {
+                    "name": "teravolt",
+                    "description": "This Pokémon's moves and their effects ignore the Abilities of other Pokémon."
+                },
+                "is_hidden": false,
+                "slot": 1
+            }
+        ],
+        "base_experience": 306,
+        "forms": [
+            {
+                "name": "Zekrom",
+                "description": "This Pokémon is said to have been born in the heat of a volcanic eruption. It is said to fly across the sky, burning everything to ash."
+            }
+        ],
+        "height": 77,
+        "held_items": [
+            {
+                "item": {
+                    "name": "charcoal",
+                    "description": "A Pokémon held item that boosts the power of Fire-type moves."
+                },
+                "version_details": [
+                    {
+                        "rarity": 5,
+                        "version": {
+                            "name": "gold",
+                            "description": "The Pokémon Gold Version game."
+                        }
+                    }
+                ]
+            }
+        ],
+        "id": 644,
+        "is_default": true,
+        "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/644/encounters",
+        "moves": [
+            {
+                "move": {
+                    "name": "dragon-pulse",
+                    "description": "The user attacks with a shock wave generated by its gaping mouth. This may also make the target flinch."
+                },
+                "version_group_details": [
+                    {
+                        "level_learned_at": 0,
+                        "move_learn_method": {
+                            "name": "level-up",
+                            "description": "A move is learned by leveling up."
+                        },
+                        "version_group": {
+                            "name": "sword-shield",
+                            "description": "The Pokémon Sword and Pokémon Shield games."
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Kyurem",
+        "abilities": [
+            {
+                "ability": {
+                    "name": "pressure",
+                    "description": "The Pokémon uses its pressure to make the foe's Ability less effective."
+                },
+                "is_hidden": false,
+                "slot": 1
+            }
+        ],
+        "base_experience": 270,
+        "forms": [
+            {
+                "name": "Kyurem",
+                "description": "This Pokémon is said to have been born in the heat of a volcanic eruption. It is said to fly across the sky, burning everything to ash.",
+                "is_battle_only": true,
+                "is_mega": false,
+                "form_order": 1,
+                "order": 1
+            }
+        ],
+        "height": 30,
+        "held_items": [
+            {
+                "item": {
+                    "name": "miracle-seed",
+                    "description": "A Pokémon held item that boosts the power of Grass-type moves."
+                },
+                "version_details": [
+                    {
+                        "rarity": 5,
+                        "version": {
+                            "name": "gold",
+                            "description": "The Pokémon Gold Version game."
+                        }
+                    }
+                ]
+            }
+        ],
+        "id": 646,
+        "is_default": true,
+        "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/646/encounters",
+        "moves": [
+            {
+                "move": {
+                    "name": "energy-ball",
+                    "description": "The user draws power from nature and fires it at the target. This may also lower the target's Sp. Def stat."
+                },
+                "version_group_details": [
+                    {
+                        "level_learned_at": 24,
+                        "move_learn_method": {
+                            "name": "level-up",
+                            "description": "A move is learned by leveling up."
+                        },
+                        "version_group": {
+                            "name": "sword-shield",
+                            "description": "The Pokémon Sword and Pokémon Shield games."
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Kyurem-Black",
+        "abilities": [
+            {
+                "ability": {
+                    "name": "teravolt",
+                    "description": "This Pokémon's moves and their effects ignore the Abilities of other Pokémon."
+                },
+                "is_hidden": false,
+                "slot": 1,
+                "version_group_details": [
+                    {
+                        "level_learned_at": 0,
+                        "move_learn_method": {
+                            "name": "level-up",
+                            "description": "A move is learned by leveling up."
+                        },
+                        "version_group": {
+                            "name": "sword-shield",
+                            "description": "The Pokémon Sword and Pokémon Shield games."
+                        }
+                    }
+                ]
+            }
+        ],
+        "base_experience": 315
+    },
+
+    {
+        "name": "Kyurem",
+        "abilities": [
+            {
+                "ability": {
+                    "name": "pressure",
+                    "description": "The Pokémon uses its pressure to make the foe's Ability less effective."
+                },
+                "is_hidden": false,
+                "slot": 1
+            }
+        ],
+        "base_experience": 270,
+        "forms": [
+            {
+                "name": "Kyurem",
+                "description": "This Pokémon is said to have been born in the heat of a volcanic eruption. It is said to fly across the sky, burning everything to ash.",
+                "is_battle_only": true,
+                "is_mega": false,
+                "form_order": 1,
+                "order": 1
+    }],
+        "height": 30,
+        "held_items": [
+            {
+                "item": {
+                    "name": "miracle-seed",
+                    "description": "A Pokémon held item that boosts the power of Grass-type moves."
+                },
+                "version_details": [
+                    {
+                        "rarity": 5,
+                        "version": {
+                            "name": "gold",
+                            "description": "The Pokémon Gold Version game."
+                        }
+                    }
+                ]
+            }
+        ],
+        "id": 646,
+        "is_default": true,
+        "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/646/encounters",
+        "moves": [
+            {
+                "move": {
+                    "name": "energy-ball",
+                    "description": "The user draws power from nature and fires it at the target. This may also lower the target's Sp. Def stat."
+                },
+                "version_group_details": [
+                    {
+                        "level_learned_at": 24,
+                        "move_learn_method": {
+                            "name": "level-up",
+                            "description": "A move is learned by leveling up."
+                        },
+                        "version_group": {
+                            "name": "sword-shield",
+                            "description": "The Pokémon Sword and Pokémon Shield games."
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+    ]
