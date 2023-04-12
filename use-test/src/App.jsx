@@ -33,11 +33,9 @@ function App() {
 
   return (
     <div className="App">
-      {initialized && (
-          <Suspense fallback={<div>Loading...</div>}>
-          <PokemonList />
-        </Suspense>
-      )}
+      <Suspense fallback={<div>Loading...</div>}>
+        <PokemonList />
+      </Suspense>
     </div>
   );
 }
