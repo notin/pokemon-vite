@@ -4,7 +4,7 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 const deps = require("./package.json").dependencies;
 module.exports = (_, argv) => ({
   output: {
-    publicPath: "http://localhost:5454/",
+    publicPath: "http://localhost:4321/",
   },
 
   resolve: {
@@ -12,7 +12,7 @@ module.exports = (_, argv) => ({
   },
 
   devServer: {
-    port: 5454,
+    port: 4321,
     historyApiFallback: true,
   },
 
@@ -41,7 +41,7 @@ module.exports = (_, argv) => ({
 
   plugins: [
     new ModuleFederationPlugin({
-      name: "pokemon_vite",
+      name: "poke_body",
       filename: "remoteEntry.js",
       remotes: {},
       exposes: {},

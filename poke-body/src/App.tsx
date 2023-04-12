@@ -5,7 +5,7 @@ import "./index.css";
 
 const App = () => (
   <div className="container">
-    <div>Name: pokemon-vite</div>
+    <div>Name: poke-body</div>
     <div>Framework: react</div>
     <div>Language: TypeScript</div>
     <div>CSS: Empty CSS</div>

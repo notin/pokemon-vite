@@ -1,12 +1,12 @@
 {
-  "name": "pokemon-vite",
+  "name": "poke-body",
   "version": "1.0.0",
   "scripts": {
-    "build": "../node_modules/.bin/webpack --mode production",
-    "build:dev": "../node_modules/.bin/webpack --mode development",
-    "build:start": "cd dist && PORT=5454 npx serve",
-    "start": "../node_modules/.bin/webpack serve --open --mode development",
-    "start:live": "../node_modules/.bin/webpack serve --open --mode development --live-reload --hot"
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development",
+    "build:start": "cd dist && PORT=4321 npx serve",
+    "start": "webpack serve --open --mode development",
+    "start:live": "webpack serve --open --mode development --live-reload --hot"
   },
   "license": "MIT",
   "author": {
