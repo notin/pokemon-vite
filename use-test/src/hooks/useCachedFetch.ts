@@ -1,17 +1,23 @@
 
 const cachedFetches = {};
-const useCachedFetch = async (url) => {
+const useCachedFetch = async (url, operate) => {
     console.log('useCachedFetch', url);
     if (!cachedFetches[url]) {
         const res = await fetch(url);
         console.log('useCachedFetch', url, res.status);
-        cachedFetches[url] = await res.json();
-        // cachedFetches[url] = await fetch(url).then(async (res) => ({
-        //     status: res.status,
-        //     data: res.status === 200 ? await res.json() : null,
-        // }));
+        let data = await res.json();
+        cachedFetches[url] =  operate(data);
     }
     console.log('useCachedFetch', url, cachedFetches[url]);
     return cachedFetches[url];
 };
+const useIsCached = (url) => {
+    let cached = false;
+    if (cachedFetches[url]) {
+         cached = true;
+    }
+    return cached;
+}
 export default useCachedFetch;
+export {useIsCached};
+

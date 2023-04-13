@@ -7,45 +7,46 @@ import '../index.css';
 import Pokemon from '../types/Pokemon';
 import useCachedFetch from "../hooks/useCachedFetch";
 
-const PokemonList: React.FC = async () => {
-        // const [pokemon, setPokemon] = useState<Pokemon[] | null>(null);
-        //
-        // useEffect(() => {
-        //     fetchPokemon();
-        // }, []);
-        //
-        // // @ts-ignore
-        // const fetchPokemon = async () => {
-        //     try {
-        //         const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=10');
-        //         const data = await response.json();
-        //         const fetchedPokemon: Pokemon[] = data.results.map((p: any, index: number) => ({
-        //             id: index + 1,
-        //             name: p.name,
-        //             sprite: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${index + 1}.png`,
-        //         }));
-        //         setPokemon(fetchedPokemon);
-        //     } catch (error) {
-        //         console.error(error);
-        //     }
-        // };
+const PokemonList = () => {
 
-        let pokemon = await useCachedFetch('https://pokeapi.co/api/v2/pokemon?limit=10');
+        const fetchPokemon = (data) => {
+            try {
+                const fetchedPokemon: Pokemon[] = data.results.map((p: any, index: number) => ({
+                    id: index + 1,
+                    name: p.name,
+                    sprite: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${index + 1}.png`
+                }));
+                return fetchedPokemon;
+            } catch (error) {
+                console.error(error);
+            }
+        };
 
-        return (
-            <div className="pokemon-list">
-                {pokemon ? (
-                    pokemon.map((p: Pokemon) => (
-                        <div key={p.id} className="pokemon-item">
-                            <img src={p.sprite} alt={p.name} className="pokemon-img"/>
-                            <div className="pokemon-name">{p.name}</div>
-                        </div>
-                    ))
-                ) : (
-                    <div>Loading...</div>
-                )}
-            </div>
-        );
+        let key = 'https://pokeapi.co/api/v2/pokemon?limit=10';
+        let pokemon =  use(useCachedFetch(key, fetchPokemon));
+
+        function getPokemonItem(p: Pokemon) {
+            let pokemon = <div key={p.id} className="pokemon-item">
+                <img src={p.sprite} alt={p.name} className="pokemon-img"/>
+                <div className="pokemon-name">{p.name}</div>
+            </div>;
+            console.log(p);
+            return pokemon;
+        }
+
+        function getPokemonList() {
+            return (
+                <div className="pokemon-list">
+                    {pokemon ? (
+                        pokemon.map((p: Pokemon) => getPokemonItem(p))
+                    ) : (
+                        <div>Loading...</div>
+                    )}
+                </div>
+            );
+        }
+
+        return getPokemonList();
     }
 ;
 
