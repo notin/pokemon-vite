@@ -9,6 +9,7 @@ import useCachedFetch from "../hooks/useCachedFetch";
 
 const PokemonList = () => {
 
+    // @ts-ignore
         const fetchPokemon = (data) => {
             try {
                 const fetchedPokemon: Pokemon[] = data.results.map((p: any, index: number) => ({

@@ -1,11 +1,22 @@
 {
+//  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Node 16",
+
   "compilerOptions": {
-    "module": "es2022",
-    "target": "es2022",
-    "noImplicitAny": true,
-    "removeComments": true,
-    "preserveConstEnums": true,
-    "sourceMap": true
+    "lib": [
+      "es2021",
+      "dom"
+    ],
+    "module": "commonjs",
+    "target": "es2021",
+
+    "strict": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "jsx": "react",
+    "noImplicitAny": false,
   },
     "exclude": [
         "node_modules"

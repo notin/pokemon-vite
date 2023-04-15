@@ -9,7 +9,13 @@ const useCachedFetch = async (url, operate) => {
         cachedFetches[url] =  operate(data);
     }
     console.log('useCachedFetch', url, cachedFetches[url]);
-    return cachedFetches[url];
+    // @ts-ignore
+    const p = new Promise((resolve, reject) => {
+        resolve(Object.values(cachedFetches).flat());
+
+    });
+    return p;
+
 };
 const useIsCached = (url) => {
     let cached = false;
