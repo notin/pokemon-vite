@@ -5,16 +5,6 @@ import PokemonList from "./components/PokemonList.tsx";
 
 
 function App() {
-  // const [initialized, setInitialized] = useState(false);
-  //
-  // useEffect(() => {
-  //   async function init() {
-  //     const ids = await cachedFetch("/ids.json");
-  //     await Promise.all(ids.data.map((id) => cachedFetch(`/${id}.json`)));
-  //     setInitialized(true);
-  //   }
-  //   init();
-  // }, []);
 
   return (
     <div className="App">
